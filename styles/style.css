@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+body, html {
+font-size: 8px;
+position:relative;
+bottom: 8px;
+right: 4px;
+width:100%;
+height: 100%;
+}
+html,
+header,
+main,
+footer{
+    position: relative;
+    min-width:1020px;
+}
+main,
+footer{
+    top: 8px;
+}
+header {
+    background: #323232;
+    height: 63px;
+    position: relative;
+    top:8px;
+}
+.navigation{
+    position: relative;
+    top:17px;
+    display: flex;
+}
+.menu{
+    width:36%;
+}
+.menu a{
+    font-family: Lato;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover{
+    color:#2eac93;
+}
+.menu li:nth-child(1){
+    position: absolute;
+    left: 32%;
+}
+.menu li:nth-child(2){
+    position: absolute;
+    left: 41%;
+}
+.menu li:nth-child(3){
+    position: absolute;
+    left: 57%;
+}
+.menu li:nth-child(4){
+    position: absolute;
+    left: 64%;
+}
+.menu li{
+    display: inline;
+    list-style-type: none;
+    
+}
+
+header h1{
+    display: none;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    width: 180px;
+    margin-left: -90px;
+    top:63px;
+    z-index:1;
+}
+.row{
+    position: relative;
+    left: 57px;
+    bottom: 84px;
+    height: 55px;
+    width:64px;
+}
+
+/*head                       */
+.top-line{
+    position: absolute;
+    width: 94%;
+    margin-top: 10px;
+    margin-left: 3%;
+    height: 0;
+    border: none;
+    border-top: 1px solid #e4e9eb;
+}
+.bottom-line{
+    position: absolute;
+    width: 94%;
+    margin-left: 3%;
+    top: 706px;
+    height: 0;
+    border: none;
+    border-top: 1px solid #e4e9eb;
+}
+.left-top-line{
+    position: absolute;
+    width: 101px;
+    transform: rotate(90deg);
+    top: 101px;
+    left: 48px;
+    height: 0;
+    border: none;
+    border-top: 1px solid #e4e9eb;
+}
+.left-bottom-line{
+    position: absolute;
+    width: 101px;
+    transform: rotate(90deg);
+    top: 439px;
+    left: 48px;
+    height: 0;
+    border: none;
+    border-top: 1px solid #e4e9eb;
+}
+
+.right-top-line{
+    position: absolute;
+    width: 101px;
+    transform: rotate(90deg);
+    top: 101px;
+    right: 69px;
+    height: 0;
+    border: none;
+    border-top: 1px solid #e4e9eb;
+}
+
+.right-buttom-line{
+    position: absolute;
+    width: 101px;
+    transform: rotate(90deg);
+    top: 439px;
+    right: 69px;
+    height: 0;
+    border: none;
+    border-top: 1px solid #e4e9eb;
+}
+
+.hexagon-container-main{
+    position: relative;
+    height:721px;
+    width: 1020px;
+    margin:0 auto;
+    bottom: -90px;
+}
+.hexagon-container-1{
+    display: flex;
+    height: 209px;
+    margin: 0 auto;
+    width: 783px;
+}
+.hexagon-container-2{
+    display: flex;
+    height: 209px;
+    margin: 0 auto;
+    width:982px;
+    bottom: 40px;
+    position: relative;
+}
+.hexagon-container-3{
+    display: flex;
+    height: 209px; 
+    margin: 0 auto;
+    width: 783px;
+    bottom: 80px;
+    position: relative;
+}
+.hexagon-container-main .hexagon{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.hexagon{
+    width: 180px;
+    height: 210px;
+    
+    transform: rotate(120deg);
+    overflow: hidden;
+    visibility: hidden;
+}
+.hex-layer-1{
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+}
+.hex-layer-2{
+    width: 100%;
+    height: 100%;
+    background: #ccc3;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+/* hex */
+
+.info{
+    background-color: #2EB398;
+    height: 341px;
+    position: relative;
+}
+.article{
+    font-size: 1rem;
+    top: 4%;
+    position: relative;
+    width:80%;
+    border-right: 1px solid #219d84 ;
+    border-left: 1px solid #219d84;
+    margin: 0 auto;
+    height: 92%;
+    display: flex;
+}
+
+.article .hexagon{
+    position: relative;
+    left: 2.5%;  
+    min-width: 182px;
+    margin: auto;
+
+}
+.article .hexagon img{
+    position: relative;
+    top: 1px;
+    right: 120px;
+}
+.person-social{
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 2%;
+    height: 70%;
+    width: 74%;
+}
+
+.article h3{
+    color: white;
+    font-size: 3.75rem;
+    line-height: 0em;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 100;
+}
+.subtitle{
+font-size: 2.25rem;
+line-height: 0em;
+color: #20816d;
+font-family: 'Maven Pro', sans-serif;
+font-weight: 100;
+
+}
+.text{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2em;
+    font-family: Lato;
+}
+.social{
+    width: 150px;
+    height: 24px;
+    display: flex;
+    position: relative;
+    left: 60%;
+    top: 10%;   
+}
+.social img:hover{
+    filter: grayscale(50);
+}
+/* main      */
+
+.inner-footer{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #2b2b2b;
+    border-bottom: 1px solid #2b2b2b;
+    width: 94%;
+    height: 95%;
+    margin: 0 auto;
+    position: relative;
+    top: 13px;
+}
+footer{
+    background-color:#323232; 
+    height: 564px ;
+
+}
+.in-touch-form{
+    position: relative;
+    width: 61.5%;
+    left: 9%;
+}
+.in-touch-form fieldset{
+    border: none;
+    color:white;
+}
+fieldset legend{
+   font-size: 2.75rem;
+   font-family: 'Maven Pro', sans-serif;
+   font-weight: 100;
+}
+.input-name,
+.input-email,
+.input-subject,
+.input-message {
+    background: #454545;
+    border: none;
+    resize: none;
+    color: white;
+    width: 100%;
+    margin-top: 16px;
+    
+}
+.input-message{
+    width: 576px;
+}
+.input-name,
+.input-email,
+.input-subject{
+    height: 38px;  
+}
+.button-submit{
+    color: white;
+    background: #2eb398;
+    border: none;
+    height: 37px;
+    width: 90px;
+    position: relative;
+    margin-top: 16px;
+    margin-left: 100%;
+    right: 90px;
+}
+.contact-info{
+    color: white;
+    position: relative;
+    margin: 0 auto;
+    margin-right: 8%;
+    margin-left: 12%;
+    height: 64%;
+}
+.contact-info a,
+.contact-info p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    word-spacing: 9px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.contact-location{
+    position: relative;
+    left: 4px;
+}
+/* footer      */
